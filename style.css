@@ -1,27 +1,29 @@
 body {
-  margin: 0 100px ;
-  font-weight: 900;font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0 100px;
+  font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
 }
 
 .menu li a {
-display: inline-block;
-padding: 10px 15px;
-text-decoration: none;
-color: #044cf1;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #044cf1;
 
 }
 
 .menuBurger {
-padding: 10px 15px;
-display: none;      /* кнопка гамбургер скрыта */
-cursor: pointer;
+  padding: 10px 15px;
+  display: none;
+  /* кнопка гамбургер скрыта */
+  cursor: pointer;
 }
 
 
 .menu {
   display: flex;
-height: 55px;
+  height: 55px;
 }
 
 
@@ -29,15 +31,15 @@ height: 55px;
 
 @media screen and (max-width: 500px) {
   .menu {
-      display: none; /* пункты меню скрыты */
-position: fixed;
-}
+    display: none;
+    /* пункты меню скрыты */
+    position: fixed;
+  }
 
 
 
-.menuBurger {
+  .menuBurger {
     display: flex;
   }
 
 }
-
